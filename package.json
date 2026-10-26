@@ -1,0 +1,14 @@
+{
+  "name": "visualcrypto",
+  "version": "1.0.0",
+  "description": "VisualCrypto - step-by-step animated visualizations of classical and modern cryptographic algorithms (IT 360, Chapter 5).",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT"
+}
